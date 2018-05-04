@@ -52,8 +52,8 @@ float UDoor::GetMassInVolume()
   for (const auto* Actor : ActorsInVolume)
   {
     Mass += Actor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
-    UE_LOG(LogTemp, Warning, TEXT("%s on pressure plate"), *Actor->GetName());
+    //UE_LOG(LogTemp, Warning, TEXT("%s is in trigger volume"), *Actor->GetName());
   }
-
+  UE_LOG(LogTemp, Warning, TEXT("%f is in trigger volume"), Mass);
   return Mass;
 }

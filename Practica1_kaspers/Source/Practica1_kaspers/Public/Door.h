@@ -40,6 +40,6 @@ private:
   UPROPERTY(EditAnywhere)
   float MassToOpenDoor = 250.0f;
 
-  // Returns total mass
+  UFUNCTION(BlueprintCallable, Category = "Setup")
   float GetMassInVolume();
 };
