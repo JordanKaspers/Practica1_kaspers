@@ -48,7 +48,7 @@ void UObjectHandler::PickUp()
 {
   UE_LOG(LogTemp, Warning, TEXT("PickUp pressed!"));
 
-  // Ray-cast and see if we have any actors with physics body collision channel set in range
+  // Ray-cast and see if there are any actors with physics body in range
   auto HitResult = GetFirstPhysicsBodyInRange();
   auto ComponentToPickUp = HitResult.GetComponent(); // gets the mesh
   auto ActorHit = HitResult.GetActor();
@@ -58,18 +58,18 @@ void UObjectHandler::PickUp()
   {
     if (!PhysicsHandle) { return; }
 
-    PhysicsHandle->GrabComponentAtLocation(
+    /*PhysicsHandle->GrabComponentAtLocation(
       ComponentToPickUp,
       NAME_None,
       ComponentToPickUp->GetOwner()->GetActorLocation()
-    );
+    );*/
 
-    //PhysicsHandle->GrabComponent(
-    //  ComponentToPickUp,
-    //  NAME_None, // no need for bones
-    //  ComponentToPickUp->GetOwner()->GetActorLocation(),
-    //  true // allows rotation
-    //);
+    PhysicsHandle->GrabComponent(
+      ComponentToPickUp,
+      NAME_None, // no need for bones
+      ComponentToPickUp->GetOwner()->GetActorLocation(),
+      false // allows rotation
+    );
 
   }
 }
