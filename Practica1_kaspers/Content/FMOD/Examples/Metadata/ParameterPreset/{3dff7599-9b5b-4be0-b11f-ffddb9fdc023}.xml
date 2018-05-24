@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{3dff7599-9b5b-4be0-b11f-ffddb9fdc023}">
+        <property name="name">
+            <value>Layer1</value>
+        </property>
+        <relationship name="folder">
+            <destination>{a418e0de-c7d0-05c9-280a-b529dc02e12e}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{e513b275-de8f-46d3-bfd7-367e4a9daaf2}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{e513b275-de8f-46d3-bfd7-367e4a9daaf2}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+        <relationship name="modulators">
+            <destination>{eb1cd821-3483-4ad5-ad65-a708d69da80f}</destination>
+        </relationship>
+    </object>
+    <object class="ADSRModulator" id="{eb1cd821-3483-4ad5-ad65-a708d69da80f}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>cursorPosition</value>
+        </property>
+        <property name="peakValue">
+            <value>15.5555573</value>
+        </property>
+        <property name="holdTime">
+            <value>60000</value>
+        </property>
+        <property name="decayTime">
+            <value>60000</value>
+        </property>
+        <property name="sustainValue">
+            <value>-2.22222137</value>
+        </property>
+        <property name="releaseTime">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

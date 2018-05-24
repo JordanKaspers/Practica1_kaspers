@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="Bank" id="{4f2913a2-7d9e-430e-a8e6-ada4e26a8205}">
+        <property name="name">
+            <value>Crossfading</value>
+        </property>
+        <relationship name="folder">
+            <destination>{07fb52a7-88b7-4b50-aff5-5f9728462f36}</destination>
+        </relationship>
+    </object>
+</objects>
