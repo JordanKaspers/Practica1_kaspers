@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="Event" id="{2b136a3b-8e1b-4800-83ab-2928e08ce32b}">
         <property name="name">
-            <value>Layering</value>
+            <value>Layering_OLD</value>
         </property>
         <property name="outputFormat">
             <value>2</value>
@@ -47,6 +47,9 @@
             <destination>{447fdd88-10fe-426d-8d1c-3fd83cceb84a}</destination>
             <destination>{37ec04f4-3e33-44e6-9b31-4ace4141920e}</destination>
             <destination>{43cc7379-401a-471d-8ba1-453ece14543d}</destination>
+        </relationship>
+        <relationship name="banks">
+            <destination>{2460d79b-9d11-4eff-9094-57cba95496d6}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{1934e8ca-ad75-4ecc-a680-6dc8d2f08dc7}">

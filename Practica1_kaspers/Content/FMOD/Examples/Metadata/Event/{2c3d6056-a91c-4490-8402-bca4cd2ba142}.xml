@@ -41,6 +41,9 @@
             <destination>{d2a787cc-e843-4330-8a4f-6c375e0cad78}</destination>
             <destination>{7971bff1-f211-4b03-a3df-92ee9571fff1}</destination>
         </relationship>
+        <relationship name="banks">
+            <destination>{63fbbb41-e33e-497c-ae90-eab09303a281}</destination>
+        </relationship>
     </object>
     <object class="EventMixer" id="{a150a1fa-9106-4b58-afaf-ab5669b73caa}">
         <relationship name="masterBus">
@@ -457,7 +460,7 @@
     <object class="MixerBusPanner" id="{3d41b407-2ccb-4d39-9f96-df3fa028c328}"/>
     <object class="ParameterCondition" id="{d1eb41e8-7b5e-4098-8173-58b0ec5baab0}">
         <property name="minimum">
-            <value>0.28000003099441528</value>
+            <value>0.50000005960464478</value>
         </property>
         <property name="maximum">
             <value>1</value>
@@ -468,7 +471,7 @@
     </object>
     <object class="ParameterCondition" id="{9b6ead3b-9eb7-445d-9577-52522afd9c5d}">
         <property name="minimum">
-            <value>0.29000002145767212</value>
+            <value>0.50000005960464478</value>
         </property>
         <property name="maximum">
             <value>1</value>
@@ -479,7 +482,7 @@
     </object>
     <object class="ParameterCondition" id="{d5c8a1c8-8d3f-44c7-bea5-1da3e6ce99e1}">
         <property name="minimum">
-            <value>0.2200000137090683</value>
+            <value>0.50000005960464478</value>
         </property>
         <property name="maximum">
             <value>1</value>
@@ -490,7 +493,7 @@
     </object>
     <object class="ParameterCondition" id="{720e42a9-54de-475d-9483-bf13504f01d9}">
         <property name="minimum">
-            <value>0.2200000137090683</value>
+            <value>0.50000005960464478</value>
         </property>
         <property name="maximum">
             <value>1</value>
@@ -501,7 +504,7 @@
     </object>
     <object class="ParameterCondition" id="{08f613e1-1b88-4d6b-b944-e916ffc3b077}">
         <property name="minimum">
-            <value>0.25000002980232239</value>
+            <value>0.50000005960464478</value>
         </property>
         <property name="maximum">
             <value>1</value>
@@ -512,7 +515,7 @@
     </object>
     <object class="ParameterCondition" id="{15fcd49b-d5b9-42ae-8b7f-9b083abb3861}">
         <property name="minimum">
-            <value>0.25000002980232239</value>
+            <value>0.50000005960464478</value>
         </property>
         <property name="maximum">
             <value>1</value>

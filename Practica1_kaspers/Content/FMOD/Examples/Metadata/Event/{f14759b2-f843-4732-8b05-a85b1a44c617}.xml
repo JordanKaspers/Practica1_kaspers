@@ -301,7 +301,7 @@
     </object>
     <object class="ParameterCondition" id="{887288fb-b5d5-4bd8-b140-7ce12b0b8d8f}">
         <property name="minimum">
-            <value>0.35000002384185791</value>
+            <value>0.50000005960464478</value>
         </property>
         <property name="maximum">
             <value>1</value>
